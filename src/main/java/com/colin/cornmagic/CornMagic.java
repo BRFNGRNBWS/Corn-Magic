@@ -20,11 +20,8 @@ public class CornMagic
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        Item amethyst = new ModItem("amethyst");
-        GameRegistry.registerItem(amethyst, "amethyst");
-
-		Block amethystOre = new ModBlock(Material.rock, "amethystOre", 5.0F, "pickaxe", 1, amethyst);
-		GameRegistry.registerBlock(amethystOre, "amethystOre");
+		Block carcinogen = new ModBlock(Material.rock, "carcinogen", 5.0F, "pickaxe", 1,null);
+		GameRegistry.registerBlock(carcinogen, "carcinogen");
     }
 
     private class ModBlock extends Block

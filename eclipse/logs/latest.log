@@ -1,125 +1,298 @@
-[08:27:02] [main/INFO]: Setting user: Player681
-[08:27:03] [Client thread/INFO]: LWJGL Version: 2.9.1
-[08:27:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[08:27:12] [Sound Library Loader/INFO]: Sound engine started
-[08:27:13] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[08:27:13] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[08:27:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[08:27:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[08:27:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[08:27:14] [Sound Library Loader/INFO]: Sound engine started
-[08:27:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[08:27:25] [Server thread/INFO]: Generating keypair
-[08:27:25] [Server thread/INFO]: Preparing start region for level 0
-[08:27:26] [Server thread/INFO]: Changing view distance to 12, from 10
-[08:27:26] [Server thread/INFO]: Player681[local:E:e9735405] logged in with entity id 36 at (99.5, 4.0, 509.5)
-[08:27:26] [Server thread/INFO]: Player681 joined the game
-[08:27:28] [Server thread/INFO]: Saving and pausing game...
-[08:27:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:27:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:27:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:27:35] [Server thread/INFO]: Player681 has just earned the achievement [Taking Inventory]
-[08:27:35] [Client thread/INFO]: [CHAT] Player681 has just earned the achievement [Taking Inventory]
-[08:27:57] [Server thread/INFO]: Saving and pausing game...
-[08:27:58] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:27:58] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:27:58] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:28:04] [Client thread/INFO]: [CHAT] Saved screenshot as 2019-03-11_08.28.03.png
-[08:28:05] [Client thread/ERROR]: Couldn't open link
-java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
-	at net.minecraft.client.gui.GuiChat.func_146407_a(GuiChat.java:303) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiChat.mouseClicked(GuiChat.java:245) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:344) [GuiScreen.class:?]
-	at net.minecraft.client.gui.GuiChat.handleMouseInput(GuiChat.java:169) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:313) [GuiScreen.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1731) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:962) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+[21:48:05] [main/INFO]: Extra: []
+[21:48:05] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/colinl/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:48:05] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:48:05] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:48:05] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:48:05] [main/INFO]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[21:48:05] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-46-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:48:05] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:48:05] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:48:05] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[21:48:05] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[21:48:05] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:05] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:48:05] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[21:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:05] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[21:48:06] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[21:48:06] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:06] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:48:06] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[21:48:06] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:48:06] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:48:06] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:48:06] [main/INFO]: Setting user: Player635
+[21:48:07] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:48:07] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[21:48:07] [Client thread/ERROR]: Couldn't initialize twitch stream
+[21:48:07] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Oops.
+
+Time: 3/12/19 9:48 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 4.15.0-46-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 258499344 bytes (246 MB) / 476577792 bytes (454 MB) up to 7495745536 bytes (7148 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 418.43' Renderer: 'GeForce GTX 1070/PCIe/SSE2'
+[21:48:07] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[21:48:07] [Client thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
+[21:48:07] [Client thread/INFO]: Replaced 183 ore recipies
+[21:48:07] [Client thread/INFO]: Completed early MinecraftForge initialization
+[21:48:08] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:48:08] [Client thread/INFO]: Searching /home/colinl/Documents/GitHub/Corn-Magic/eclipse/mods for mods
+[21:48:11] [Client thread/INFO]: Mod cornmagic is missing the required element 'name'. Substituting cornmagic
+[21:48:11] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[21:48:11] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cornmagic] at CLIENT
+[21:48:11] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cornmagic] at SERVER
+[21:48:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:cornmagic
+[21:48:11] [Client thread/INFO]: Processing ObjectHolder annotations
+[21:48:11] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[21:48:11] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[21:48:11] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[21:48:11] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[21:48:11] [Client thread/INFO]: Applying holder lookups
+[21:48:11] [Client thread/INFO]: Holder lookups applied
+[21:48:11] [Client thread/INFO]: Injecting itemstacks
+[21:48:11] [Client thread/INFO]: Itemstack injection complete
+[21:48:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:48:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:48:12] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:48:12] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:48:12] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:48:12] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:48:12] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:48:12] [Client thread/INFO]: Injecting itemstacks
+[21:48:12] [Client thread/INFO]: Itemstack injection complete
+[21:48:12] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[21:48:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:cornmagic
+[21:48:12] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:48:12] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:48:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:48:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:48:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:48:12] [Sound Library Loader/INFO]: Sound engine started
+[21:48:12] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:48:12] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.IllegalStateException: Only one OpenAL context may be instantiated at any one time.
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:113)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:102)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:201)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[21:48:12] [Thread-9/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.CommandThread.run(CommandThread.java:121)
+[21:48:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:48:18] [Server thread/INFO]: Generating keypair
+[21:48:18] [Server thread/ERROR]: This world was saved with mod examplemod which appears to be missing, things may not work well
+[21:48:18] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[21:48:18] [Server thread/INFO]: Found a missing id from the world examplemod:amethystOre
+[21:48:18] [Server thread/INFO]: Found a missing id from the world examplemod:amethystOre
+[21:48:18] [Server thread/ERROR]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[21:48:18] [Server thread/ERROR]: Unidentified block: examplemod:amethystOre, id 165
+[21:48:18] [Server thread/ERROR]: Unidentified item: examplemod:amethystOre, id 165
+[21:48:22] [Server thread/INFO]: World backup created at /home/colinl/Documents/GitHub/Corn-Magic/eclipse/saves/New World-20190312-214822.zip.
+[21:48:22] [Server thread/ERROR]: This world contains block and item mappings that may cause world breakage
+[21:48:22] [Server thread/INFO]: Injecting new block and item data into this server instance.
+[21:48:22] [Server thread/INFO]: Injected new block/item cornmagic:carcinogen: 165 (init) -> 166 (map).
+[21:48:22] [Server thread/INFO]: Injected new block/item cornmagic:carcinogen: 165 (init) -> 166 (map).
+[21:48:22] [Server thread/INFO]: Applying holder lookups
+[21:48:22] [Server thread/INFO]: Holder lookups applied
+[21:48:22] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@33dc7c73)
+[21:48:22] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@33dc7c73)
+[21:48:22] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@33dc7c73)
+[21:48:22] [Server thread/INFO]: Preparing start region for level 0
+[21:48:22] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:48:22] [Netty Client IO #0/INFO]: Server protocol version 2
+[21:48:22] [Netty IO #1/INFO]: Client protocol version 2
+[21:48:22] [Netty IO #1/INFO]: Client attempting to join with 4 mods : FML@7.10.99.99,cornmagic@0.1,Forge@10.13.4.1614,mcp@9.05
+[21:48:22] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[21:48:22] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[21:48:23] [Server thread/INFO]: [Server thread] Server side modded connection established
+[21:48:23] [Client thread/INFO]: [Client thread] Client side modded connection established
+[21:48:23] [Server thread/INFO]: Player635[local:E:c76dcf17] logged in with entity id 209 at (93.91965958162673, 4.0, 509.3366986854245)
+[21:48:23] [Server thread/INFO]: Player635 joined the game
+[21:48:24] [Server thread/INFO]: Player635 has just earned the achievement [Taking Inventory]
+[21:48:24] [Client thread/INFO]: [CHAT] Player635 has just earned the achievement [Taking Inventory]
+[21:48:33] [Client thread/INFO]: [CHAT] Saved screenshot as 2019-03-12_21.48.33.png
+[21:48:52] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[21:48:52] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:         SoundSystem did not load after 30 seconds.
+[21:48:52] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:48:52] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:48:53] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[21:48:53] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[21:48:53] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.UnsatisfiedLinkError: org.lwjgl.openal.AL10.nalGetSourcei(II)I
+[21:48:53] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL10.nalGetSourcei(Native Method)
+[21:48:53] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL10.alGetSourcei(AL10.java:853)
+[21:48:53] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.libraries.ChannelLWJGLOpenAL.buffersProcessed(ChannelLWJGLOpenAL.java:527)
+[21:48:53] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.Source.stream(Source.java:948)
+[21:48:53] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.StreamThread.run(StreamThread.java:129)
+[21:48:53] [Server thread/INFO]: Stopping server
+[21:48:53] [Server thread/INFO]: Saving players
+[21:48:53] [Server thread/INFO]: Saving worlds
+[21:48:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:48:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:48:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:48:53] [Server thread/INFO]: Unloading dimension 0
+[21:48:53] [Server thread/INFO]: Unloading dimension -1
+[21:48:53] [Server thread/INFO]: Unloading dimension 1
+[21:48:53] [Server thread/INFO]: Applying holder lookups
+[21:48:53] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:48:53] [Sound Library Loader/INFO]: Sound engine started
+[21:48:53] [Server thread/INFO]: Holder lookups applied
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.UnsatisfiedLinkError: org.lwjgl.openal.AL10.nalSourceStop(I)V
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL10.nalSourceStop(Native Method)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL10.alSourceStop(AL10.java:992)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.libraries.ChannelLWJGLOpenAL.stop(ChannelLWJGLOpenAL.java:620)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.Source.stop(Source.java:1128)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.Library.stop(Library.java:735)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandStop(SoundSystem.java:2121)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2518)
+[21:48:53] [Thread-7/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.CommandThread.run(CommandThread.java:121)
+[21:48:53] [Client thread/FATAL]: Unreported exception thrown!
+java.lang.UnsatisfiedLinkError: org.lwjgl.openal.AL10.nalGetSourcei(II)I
+	at org.lwjgl.openal.AL10.nalGetSourcei(Native Method) ~[lwjgl-2.9.1.jar:?]
+	at org.lwjgl.openal.AL10.alGetSourcei(AL10.java:853) ~[lwjgl-2.9.1.jar:?]
+	at paulscode.sound.libraries.ChannelLWJGLOpenAL.playing(ChannelLWJGLOpenAL.java:651) ~[ChannelLWJGLOpenAL.class:?]
+	at paulscode.sound.Source.playing(Source.java:1213) ~[Source.class:?]
+	at net.minecraft.client.audio.SoundManager$SoundSystemStarterThread.playing(SoundManager.java:500) ~[SoundManager$SoundSystemStarterThread.class:?]
+	at net.minecraft.client.audio.SoundManager.isSoundPlaying(SoundManager.java:284) ~[SoundManager.class:?]
+	at net.minecraft.client.audio.SoundHandler.isSoundPlaying(SourceFile:216) ~[SoundHandler.class:?]
+	at net.minecraft.client.audio.MusicTicker.update(SourceFile:33) ~[MusicTicker.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2012) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:973) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
 	at GradleStart.main(Unknown Source) [start/:?]
-Caused by: java.io.IOException: Failed to open file:/D:/colinl/Documents/GitHub/Corn%20Magic/eclipse/./screenshots/2019-03-11_08.28.03.png. Error message: The system cannot find the file specified.
+[21:48:53] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:349]: ---- Minecraft Crash Report ----
+// Why did you do that?
 
-	at sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:90) ~[?:1.8.0_201]
-	at sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:76) ~[?:1.8.0_201]
-	at java.awt.Desktop.browse(Desktop.java:385) ~[?:1.8.0_201]
-	... 21 more
-[08:28:09] [Client thread/ERROR]: Couldn't open link
-java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
-	at net.minecraft.client.gui.GuiChat.func_146407_a(GuiChat.java:303) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiChat.mouseClicked(GuiChat.java:245) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:344) [GuiScreen.class:?]
-	at net.minecraft.client.gui.GuiChat.handleMouseInput(GuiChat.java:169) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:313) [GuiScreen.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1731) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:962) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-Caused by: java.io.IOException: Failed to open file:/D:/colinl/Documents/GitHub/Corn%20Magic/eclipse/./screenshots/2019-03-11_08.28.03.png. Error message: The system cannot find the file specified.
+Time: 3/12/19 9:48 PM
+Description: Unexpected error
 
-	at sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:90) ~[?:1.8.0_201]
-	at sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:76) ~[?:1.8.0_201]
-	at java.awt.Desktop.browse(Desktop.java:385) ~[?:1.8.0_201]
-	... 21 more
-[08:28:09] [Client thread/ERROR]: Couldn't open link
-java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
-	at net.minecraft.client.gui.GuiChat.func_146407_a(GuiChat.java:303) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiChat.mouseClicked(GuiChat.java:245) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:344) [GuiScreen.class:?]
-	at net.minecraft.client.gui.GuiChat.handleMouseInput(GuiChat.java:169) [GuiChat.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:313) [GuiScreen.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1731) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:962) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-Caused by: java.io.IOException: Failed to open file:/D:/colinl/Documents/GitHub/Corn%20Magic/eclipse/./screenshots/2019-03-11_08.28.03.png. Error message: The system cannot find the file specified.
+java.lang.UnsatisfiedLinkError: org.lwjgl.openal.AL10.nalGetSourcei(II)I
+	at org.lwjgl.openal.AL10.nalGetSourcei(Native Method)
+	at org.lwjgl.openal.AL10.alGetSourcei(AL10.java:853)
+	at paulscode.sound.libraries.ChannelLWJGLOpenAL.playing(ChannelLWJGLOpenAL.java:651)
+	at paulscode.sound.Source.playing(Source.java:1213)
+	at net.minecraft.client.audio.SoundManager$SoundSystemStarterThread.playing(SoundManager.java:500)
+	at net.minecraft.client.audio.SoundManager.isSoundPlaying(SoundManager.java:284)
+	at net.minecraft.client.audio.SoundHandler.isSoundPlaying(SourceFile:216)
+	at net.minecraft.client.audio.MusicTicker.update(SourceFile:33)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2012)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:973)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:898)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
 
-	at sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:90) ~[?:1.8.0_201]
-	at sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:76) ~[?:1.8.0_201]
-	at java.awt.Desktop.browse(Desktop.java:385) ~[?:1.8.0_201]
-	... 21 more
-[08:28:16] [Server thread/INFO]: Saving and pausing game...
-[08:28:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:28:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:28:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:28:16] [Server thread/INFO]: Stopping server
-[08:28:16] [Server thread/INFO]: Saving players
-[08:28:16] [Server thread/INFO]: Saving worlds
-[08:28:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:28:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:28:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:28:17] [Client thread/INFO]: Stopping!
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at org.lwjgl.openal.AL10.nalGetSourcei(Native Method)
+	at org.lwjgl.openal.AL10.alGetSourcei(AL10.java:853)
+	at paulscode.sound.libraries.ChannelLWJGLOpenAL.playing(ChannelLWJGLOpenAL.java:651)
+	at paulscode.sound.Source.playing(Source.java:1213)
+	at net.minecraft.client.audio.SoundManager$SoundSystemStarterThread.playing(SoundManager.java:500)
+	at net.minecraft.client.audio.SoundManager.isSoundPlaying(SoundManager.java:284)
+	at net.minecraft.client.audio.SoundHandler.isSoundPlaying(SourceFile:216)
+	at net.minecraft.client.audio.MusicTicker.update(SourceFile:33)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player635'/209, l='MpServer', x=92.37, y=5.62, z=509.57]]
+	Chunk stats: MultiplayerChunkCache: 624, 624
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (96,4,510), Chunk: (at 0,0,14 in 6,31; contains blocks 96,0,496 to 111,255,511), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1657 game time, 1657 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 131 total; [EntitySlime['Slime'/119554, l='MpServer', x=23.39, y=4.00, z=553.39], EntitySlime['Slime'/108039, l='MpServer', x=139.58, y=4.96, z=442.58], EntitySlime['Slime'/108040, l='MpServer', x=124.03, y=4.81, z=437.07], EntitySlime['Slime'/190473, l='MpServer', x=52.50, y=4.00, z=475.50], EntitySlime['Slime'/13, l='MpServer', x=13.81, y=4.00, z=464.65], EntitySlime['Slime'/122639, l='MpServer', x=84.28, y=4.00, z=584.68], EntitySheep['Sheep'/17, l='MpServer', x=15.50, y=4.00, z=553.50], EntitySlime['Slime'/5906, l='MpServer', x=97.85, y=4.00, z=544.13], EntitySlime['Slime'/9236, l='MpServer', x=142.44, y=4.00, z=485.56], EntityCow['Cow'/22, l='MpServer', x=15.22, y=4.00, z=560.81], EntitySheep['Sheep'/32, l='MpServer', x=20.50, y=4.00, z=556.50], EntitySheep['Sheep'/34, l='MpServer', x=19.50, y=4.00, z=549.50], EntitySheep['Sheep'/35, l='MpServer', x=22.50, y=4.00, z=550.50], EntityCow['Cow'/36, l='MpServer', x=14.06, y=4.00, z=555.03], EntitySheep['Sheep'/37, l='MpServer', x=32.34, y=4.00, z=560.72], EntitySheep['Sheep'/38, l='MpServer', x=20.50, y=4.00, z=560.50], EntitySheep['Sheep'/39, l='MpServer', x=21.50, y=4.00, z=564.50], EntitySheep['Sheep'/40, l='MpServer', x=30.53, y=4.00, z=560.22], EntitySheep['Sheep'/41, l='MpServer', x=31.31, y=4.00, z=561.91], EntitySheep['Sheep'/42, l='MpServer', x=30.66, y=4.00, z=563.06], EntitySheep['Sheep'/43, l='MpServer', x=27.94, y=4.00, z=569.94], EntitySlime['Slime'/63275, l='MpServer', x=17.98, y=4.85, z=487.97], EntitySheep['Sheep'/44, l='MpServer', x=29.41, y=4.00, z=564.44], EntitySheep['Sheep'/45, l='MpServer', x=29.22, y=4.00, z=561.16], EntitySlime['Slime'/46, l='MpServer', x=54.35, y=4.47, z=486.04], EntitySheep['Sheep'/47, l='MpServer', x=32.59, y=4.00, z=565.78], EntitySheep['Sheep'/48, l='MpServer', x=37.78, y=4.00, z=559.59], EntityChicken['Chicken'/49, l='MpServer', x=33.66, y=4.00, z=562.13], EntityChicken['Chicken'/50, l='MpServer', x=31.72, y=4.00, z=554.91], EntityChicken['Chicken'/51, l='MpServer', x=36.34, y=4.00, z=562.75], EntityChicken['Chicken'/52, l='MpServer', x=38.25, y=4.00, z=560.69], EntityClientPlayerMP['Player635'/209, l='MpServer', x=92.37, y=5.62, z=509.57], EntitySlime['Slime'/57, l='MpServer', x=89.64, y=4.81, z=488.14], EntitySlime['Slime'/58, l='MpServer', x=16.53, y=4.00, z=478.25], EntitySlime['Slime'/59, l='MpServer', x=74.01, y=4.00, z=558.08], EntitySlime['Slime'/60, l='MpServer', x=92.41, y=4.00, z=546.03], EntitySheep['Sheep'/61, l='MpServer', x=55.50, y=4.00, z=573.50], EntityPig['Pig'/62, l='MpServer', x=62.50, y=4.00, z=575.50], EntitySheep['Sheep'/63, l='MpServer', x=57.09, y=4.00, z=578.28], EntitySheep['Sheep'/64, l='MpServer', x=55.19, y=4.00, z=576.19], EntityPig['Pig'/65, l='MpServer', x=62.44, y=4.00, z=579.91], EntityChicken['Chicken'/66, l='MpServer', x=55.53, y=4.00, z=584.44], EntityChicken['Chicken'/67, l='MpServer', x=52.53, y=4.00, z=575.56], EntityChicken['Chicken'/68, l='MpServer', x=52.59, y=4.00, z=581.56], EntitySheep['Sheep'/69, l='MpServer', x=63.22, y=4.00, z=578.75], EntityZombie['Zombie'/170571, l='MpServer', x=171.49, y=4.00, z=489.18], EntitySlime['Slime'/77, l='MpServer', x=109.54, y=4.00, z=530.36], EntityPig['Pig'/78, l='MpServer', x=64.50, y=4.00, z=574.50], EntitySheep['Sheep'/79, l='MpServer', x=80.47, y=4.00, z=573.53], EntitySheep['Sheep'/80, l='MpServer', x=79.69, y=4.00, z=574.94], EntitySlime['Slime'/44112, l='MpServer', x=79.38, y=4.00, z=459.50], EntitySheep['Sheep'/81, l='MpServer', x=74.88, y=4.00, z=566.13], EntitySheep['Sheep'/82, l='MpServer', x=74.19, y=4.00, z=568.09], EntitySheep['Sheep'/83, l='MpServer', x=74.84, y=4.00, z=564.09], EntitySlime['Slime'/84, l='MpServer', x=92.81, y=4.96, z=549.34], EntitySlime['Slime'/152407, l='MpServer', x=59.16, y=4.00, z=588.16], EntitySlime['Slime'/22622, l='MpServer', x=154.19, y=4.85, z=495.65], EntitySlime['Slime'/184160, l='MpServer', x=136.97, y=4.00, z=570.23], EntityItem['item.tile.grass'/99, l='MpServer', x=95.59, y=4.13, z=513.44], EntitySlime['Slime'/100, l='MpServer', x=91.50, y=4.00, z=509.31], EntitySlime['Slime'/101, l='MpServer', x=89.31, y=4.00, z=522.56], EntitySlime['Slime'/102, l='MpServer', x=74.39, y=4.00, z=529.06], EntitySheep['Sheep'/103, l='MpServer', x=86.09, y=4.00, z=578.91], EntityHorse['Horse'/104, l='MpServer', x=83.13, y=4.00, z=571.13], EntityHorse['Horse'/105, l='MpServer', x=76.34, y=4.00, z=564.44], EntityHorse['Horse'/106, l='MpServer', x=85.50, y=4.00, z=569.50], EntitySlime['Slime'/110, l='MpServer', x=119.24, y=4.14, z=522.22], EntitySlime['Slime'/114, l='MpServer', x=112.38, y=4.95, z=434.49], EntitySlime['Slime'/115, l='MpServer', x=155.38, y=4.00, z=485.28], EntityVillager['Villager'/116, l='MpServer', x=156.00, y=5.00, z=521.56], EntityVillager['Villager'/117, l='MpServer', x=154.72, y=4.00, z=505.44], EntityVillager['Villager'/118, l='MpServer', x=161.66, y=4.00, z=510.16], EntityVillager['Villager'/119, l='MpServer', x=147.50, y=4.00, z=510.75], EntitySheep['Sheep'/120, l='MpServer', x=158.84, y=4.00, z=505.88], EntitySlime['Slime'/197499, l='MpServer', x=59.60, y=4.00, z=473.60], EntityVillager['Villager'/121, l='MpServer', x=152.50, y=5.00, z=512.50], EntityVillager['Villager'/122, l='MpServer', x=156.69, y=5.00, z=520.22], EntityVillager['Villager'/123, l='MpServer', x=157.66, y=5.00, z=520.53], EntityVillager['Villager'/124, l='MpServer', x=159.31, y=5.00, z=536.31], EntitySheep['Sheep'/125, l='MpServer', x=157.78, y=4.00, z=559.31], EntitySheep['Sheep'/126, l='MpServer', x=161.81, y=4.00, z=553.78], EntitySheep['Sheep'/127, l='MpServer', x=158.50, y=4.00, z=557.50], EntityPig['Pig'/128, l='MpServer', x=148.50, y=4.00, z=559.50], EntitySheep['Sheep'/129, l='MpServer', x=160.81, y=4.00, z=560.66], EntitySlime['Slime'/49025, l='MpServer', x=13.23, y=4.95, z=484.65], EntityPig['Pig'/130, l='MpServer', x=163.91, y=4.00, z=558.94], EntityPig['Pig'/131, l='MpServer', x=156.19, y=4.00, z=563.50], EntityPig['Pig'/132, l='MpServer', x=152.81, y=4.00, z=560.81], EntitySheep['Sheep'/133, l='MpServer', x=150.50, y=4.00, z=575.50], EntitySheep['Sheep'/134, l='MpServer', x=142.97, y=4.00, z=565.06], EntitySheep['Sheep'/135, l='MpServer', x=149.50, y=4.00, z=573.81], EntitySheep['Sheep'/136, l='MpServer', x=148.19, y=4.00, z=570.34], EntitySheep['Sheep'/137, l='MpServer', x=149.66, y=4.00, z=566.75], EntityChicken['Chicken'/138, l='MpServer', x=151.50, y=4.00, z=579.50], EntityChicken['Chicken'/139, l='MpServer', x=150.50, y=4.00, z=581.50], EntityChicken['Chicken'/140, l='MpServer', x=147.50, y=4.00, z=582.50], EntityChicken['Chicken'/141, l='MpServer', x=153.41, y=4.00, z=590.44], EntitySheep['Sheep'/142, l='MpServer', x=154.50, y=4.00, z=581.50], EntitySheep['Sheep'/143, l='MpServer', x=150.50, y=4.00, z=580.50], EntitySheep['Sheep'/144, l='MpServer', x=151.50, y=4.00, z=583.50], EntitySheep['Sheep'/145, l='MpServer', x=151.50, y=4.00, z=587.50], EntityCreeper['Creeper'/148, l='MpServer', x=166.50, y=9.00, z=483.50], EntityVillager['Villager'/150, l='MpServer', x=164.31, y=4.00, z=499.44], EntitySheep['Sheep'/151, l='MpServer', x=163.41, y=4.00, z=510.06], EntityCow['Cow'/152, l='MpServer', x=166.50, y=4.00, z=509.50], EntityBat['Bat'/153, l='MpServer', x=170.71, y=12.01, z=517.71], EntityVillager['Villager'/154, l='MpServer', x=169.47, y=5.00, z=512.69], EntityVillager['Villager'/155, l='MpServer', x=168.53, y=5.00, z=523.31], EntitySlime['Slime'/82589, l='MpServer', x=18.69, y=4.00, z=476.78], EntitySheep['Sheep'/157, l='MpServer', x=161.16, y=4.00, z=507.97], EntityVillager['Villager'/159, l='MpServer', x=160.22, y=5.00, z=535.31], EntityVillager['Villager'/160, l='MpServer', x=168.50, y=5.00, z=532.50], EntityVillager['Villager'/161, l='MpServer', x=160.53, y=5.00, z=536.25], EntityVillager['Villager'/162, l='MpServer', x=166.31, y=4.00, z=528.31], EntitySheep['Sheep'/163, l='MpServer', x=161.78, y=4.00, z=558.22], EntitySheep['Sheep'/164, l='MpServer', x=160.50, y=4.00, z=559.50], EntitySheep['Sheep'/165, l='MpServer', x=166.06, y=4.00, z=568.94], EntityVillager['Villager'/172, l='MpServer', x=168.50, y=5.00, z=524.25], EntitySlime['Slime'/179, l='MpServer', x=172.56, y=4.00, z=524.31], EntitySlime['Slime'/139446, l='MpServer', x=68.71, y=4.39, z=468.02], EntitySlime['Slime'/182, l='MpServer', x=167.68, y=4.96, z=466.00], EntitySlime['Slime'/176064, l='MpServer', x=76.88, y=4.00, z=547.75], EntitySlime['Slime'/195782, l='MpServer', x=68.50, y=4.00, z=584.50], EntitySlime['Slime'/166351, l='MpServer', x=113.46, y=4.00, z=483.44], EntitySlime['Slime'/125148, l='MpServer', x=124.58, y=4.96, z=485.88], EntitySlime['Slime'/102625, l='MpServer', x=115.78, y=4.00, z=502.96], EntitySlime['Slime'/30436, l='MpServer', x=22.87, y=4.00, z=467.34], EntitySlime['Slime'/88304, l='MpServer', x=132.59, y=4.00, z=552.67], EntitySlime['Slime'/131312, l='MpServer', x=126.42, y=4.00, z=445.68], EntitySlime['Slime'/39933, l='MpServer', x=35.97, y=4.00, z=460.56], EntitySlime['Slime'/193788, l='MpServer', x=61.60, y=4.00, z=475.60]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:373)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2444)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:927)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 4.15.0-46-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 216626080 bytes (206 MB) / 1084751872 bytes (1034 MB) up to 7495745536 bytes (7148 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeBin-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeBin-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	cornmagic{0.1} [cornmagic] (cornmagic-0.1.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 418.43' Renderer: 'GeForce GTX 1070/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 1070/PCIe/SSE2 GL version 4.6.0 NVIDIA 418.43, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
+[21:48:53] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:359]: #@!@# Game crashed! Crash report saved to: #@!@# /home/colinl/Documents/GitHub/Corn-Magic/eclipse/./crash-reports/crash-2019-03-12_21.48.53-client.txt
