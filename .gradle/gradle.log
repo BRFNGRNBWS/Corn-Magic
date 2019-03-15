@@ -12,22 +12,24 @@
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-D:\colinl\Documents\GitHub\Corn Magic\build\sources\java\com\colin\cornmagic\ModBlock.java:24: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-1 error
 1 warning
- FAILED
 
-FAILURE: Build failed with an exception.
+:processResources UP-TO-DATE
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData UP-TO-DATE
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
 
-* What went wrong:
-Execution failed for task ':compileJava'.
-> Compilation failed; see the compiler error output for details.
+BUILD SUCCESSFUL
 
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
-
-BUILD FAILED
-
-Total time: 6.023 secs
+Total time: 8.671 secs

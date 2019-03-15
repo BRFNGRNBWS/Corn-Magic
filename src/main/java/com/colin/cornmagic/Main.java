@@ -16,15 +16,20 @@ public class Main
 {
     public static final String MODID = "cornmagic";
     public static final String VERSION = "0.1";
+
+    public static Item carcinogen;
+    public static Block carcinogenOre;
     
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        Item carcinogen = new ModItem("carcinogen");
+        carcinogen = new ModItem("carcinogen");
         GameRegistry.registerItem(carcinogen, "carcinogen");
 
-		Block carcinogenOre = new ModBlock(Material.rock, "carcinogenOre", 5.0F, "pickaxe", 1, carcinogen);
+		carcinogenOre = new ModBlock(Material.rock, "carcinogenOre", 5.0F, "pickaxe", 1, carcinogen);
 		GameRegistry.registerBlock(carcinogenOre, "carcinogenOre");
+
+		GameRegistry.registerWorldGenerator(new ModWorldGenerator(carcinogenOre, 6, 20, 12, 64), 0);
     }
 
 }

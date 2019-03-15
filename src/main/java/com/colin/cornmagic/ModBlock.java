@@ -4,7 +4,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import scala.util.Random;
+
+import java.util.Random;
 
 public class ModBlock extends Block
 {
@@ -22,7 +23,8 @@ public class ModBlock extends Block
     }
 
     @Override
-    public Item getItemDropped(int i, Random random, int j) {
+    public Item getItemDropped(int p_149650_1_, Random parRand, int parFortune)
+    {
         if(toDrop != null)
         {
             return toDrop;
