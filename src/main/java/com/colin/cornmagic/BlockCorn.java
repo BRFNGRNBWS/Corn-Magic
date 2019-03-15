@@ -13,11 +13,11 @@ public class BlockCorn extends ModCrop
     private String blockname;
     private Item toDrop;
 
-    public BlockCorn(String blockname, String blocktexturename, Item toDrop)
+    public BlockCorn(String blockname, Item toDrop)
     {
         setBlockName(blockname);
         this.blockname = blockname;
-        setBlockTextureName(blocktexturename);
+        setBlockTextureName("cornmagic:" + blockname + "_stage_0");
         this.toDrop = toDrop;
     }
 
